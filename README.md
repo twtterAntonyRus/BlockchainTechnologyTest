@@ -4,7 +4,9 @@
 
 ## Задача
 
-Храним счетчик (посещений, подсчетов, голосов и прочие варианты)
+Храним счетчик (посещений, подсчетов, голосов и прочие варианты).
+Файл контракта: 
+https://github.com/twtterAntonyRus/BlockchainTechnologyTest/blob/main/blockchain-test/packages/hardhat/contracts/VisitsCounter.sol
 
 В контракте описаны:
 
