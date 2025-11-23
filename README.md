@@ -50,8 +50,6 @@ yarn deploy
 yarn start
 ```
 
-
-
 Исправление ошибок:
 
 npm install --save-dev hardhat --legacy-peer-deps
@@ -78,3 +76,9 @@ Error HH502: Couldn't download compiler version list. Please check your internet
 - ~~npm update solc~~
 
 - Обновил номер версии в файле hardhat.config.ts 
+
+- Получил замечание: В интерфейсе приложения подключается YourContract, должен VisitsCounter. Тесты не проходят из-за ошибки импорта SyntaxError: The requested module 'hardhat' does not provide an export named 'ethers' 
+  
+  - Поменял YourContract на VisitsCounter.
+
+- 

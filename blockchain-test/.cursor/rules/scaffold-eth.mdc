@@ -77,7 +77,7 @@ const {
   isLoading,
   error,
 } = useScaffoldEventHistory({
-  contractName: "YourContract",
+  contractName: "VisitsCounter",
   eventName: "GreetingChange",
   watch: true, // optional, if true, the hook will watch for new events
 });

@@ -50,6 +50,8 @@
     "verify": "yarn hardhat:verify"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.8.0",
     "husky": "~9.1.6",
     "lint-staged": "~13.2.2"
   },
